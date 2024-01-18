@@ -1,0 +1,177 @@
+
+.contM{
+    background-color: #EBB018;
+    border: 10px ;
+   text-align:center;
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    /* justify-items: center; */
+    width: 100%;
+    border: 10px gray;
+    margin-bottom: 1px;
+    padding-top:100px ; 
+ 
+}
+
+.title{
+    color: white;
+    font-family:'Times New Roman', Times, serif    ;
+    font-size: 4em;
+}
+.titleblack{
+    font-size: 6em;
+    text-shadow: 2px 2px 2px;
+    font-weight: bold;
+}
+.contM p{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+}
+/* .getparagraph::before{
+    content: "------------------ ";
+    background-color: rgba(240, 248, 255, 0);
+    width: 200px;
+    height: 2px;
+    border: 5px white;
+    color: aliceblue;
+    text-shadow: 2px 2px ;
+
+} */
+.getparagraph{
+   position:relative;
+
+}
+.getparagraph::after{
+    content: "   ";
+    background-color: rgb(255, 255, 255);
+    width: 60% !important;
+    height: 10%;
+    color: aliceblue;
+    text-shadow: 2px 2px ;
+    position: absolute;
+    left:65%;
+    top:50%;
+    translate:0 -50%;
+    border-radius:5px;
+}
+.getparagraph::before{
+    content: " ";
+    background-color: rgb(255, 255, 255);
+    width: 60% !important;
+    height: 10%;
+    border: 5px white;
+    color: aliceblue;
+    text-shadow: 2px 2px ;
+    position: absolute;
+    left:-25%;
+    top:50%;
+    translate:0 -50%;
+    border-radius:5px;
+   
+}
+
+.Vbotton{ 
+     padding: 5px;
+      text-align: center;
+    border-radius: 15px;
+   font-size: larger; 
+   font-weight: bold;
+   height: 50px;
+   display:grid;
+   place-items: center;
+   color: #fff ;
+    width:100%;
+   background-color:#982727 !important;
+}
+.bgBorder{
+    border:20px gray;
+    background-color: gray;
+    width:100%;
+    height:100%;
+    margin-top: 0%;
+}
+
+
+
+
+
+.modal-confirm {		
+	color: #636363;
+	width: 325px;
+	font-size: 14px;
+}
+.modal-confirm .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-confirm .modal-header {
+	border-bottom: none;   
+	position: relative;
+}
+.modal-confirm h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+}
+.modal-confirm .form-control, .modal-confirm .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-confirm .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}	
+.modal-confirm .modal-footer {
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 13px;
+}	
+.modal-confirm .icon-box {
+	color: #fff;		
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: rgb(208, 143, 4);
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-confirm .icon-box i {
+	font-size: 58px;
+	position: relative;
+	top: 3px;
+}
+.modal-confirm.modal-dialog {
+	margin-top: 80px;
+}
+.modal-confirm .btn {
+	color: #fff;
+	border-radius: 4px;
+	background: #82ce34;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border: none;
+}
+.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+	background: #6fb32b;
+	outline: none;
+}
+.trigger-btn {
+    display: inline-block;
+    margin: px auto;
+    top: 10%;
+ 
+    position: absolute;
+}

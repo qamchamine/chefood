@@ -1,0 +1,23 @@
+.profile-pic{
+    width: 5em;
+border-radius:50%;
+height: 5em;
+border:1px solid #ffffff56;
+position: relative; 
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+cursor:pointer;
+user-select: none;
+color:white;
+
+}
+.profile-info table td {
+
+    font-size: 1em ;
+}
+
+.profile-info table td:nth-child(2){
+background: rgb(224, 224, 224);
+}

@@ -1,0 +1,66 @@
+.price {
+    background: #982727;
+    color: white;
+    text-align: center;
+    padding-block: 1em;
+    border-radius: .5em;
+}
+
+.delivery-page .card {
+    transition: 300ms ease;
+    user-select: none;
+}
+
+.delivery-page .card ul {
+    list-style-type: none;
+}
+
+.delivery-page .card:hover {
+    filter: contrast(120%);
+    cursor: pointer;
+    outline: .3em solid #982727;
+    box-shadow: 0 .4em 0px .3em #982727 !important;
+}
+
+.delivery-page {
+    height: fit-content; 
+    display: flex;
+    align-items: center;
+    margin-top: 8em !important;
+}
+.scroll-bar-activated::-webkit-scrollbar {
+    display: block !important;
+    background: rgba(255, 0, 0, 0) !important;
+    width: 1em !important;
+}
+.scroll-bar-activated{
+    overflow: overlay !important;
+
+}
+.scroll-bar-activated::-webkit-scrollbar-thumb {
+    display: block !important;
+    background: linear-gradient(to bottom,transparent 0% 23%,#982727 20% 70%,transparent 50% 100%) !important;
+    z-index: 10000000 !important;
+    width: 10px !important;
+}
+
+.delivery-page>div {
+    height: fit-content;
+    position: relative;
+
+}
+
+.delivery-page>div:last-child h5 img {
+    height: 11em;
+}
+
+h1.section-2{
+    margin-top: 4em ;
+} 
+.cards2{
+    margin-bottom: 5em ;
+}
+h1{
+    text-transform: uppercase;
+    color: #6a2626;;
+}

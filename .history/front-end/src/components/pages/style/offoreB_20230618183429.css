@@ -1,0 +1,103 @@
+
+.contM{
+    background-color: #EBB018;
+    border: 10px ;
+   text-align:center;
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    /* justify-items: center; */
+    width: 100%;
+    border: 10px gray;
+    margin-bottom: 1px;
+    padding-top:100px ; 
+ 
+}
+
+.title{
+    color: white;
+    font-family:'Times New Roman', Times, serif    ;
+    font-size: 4em;
+}
+.titleblack{
+    font-size: 6em;
+    text-shadow: 2px 2px 2px;
+    font-weight: bold;
+}
+.contM p{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+}
+/* .getparagraph::before{
+    content: "------------------ ";
+    background-color: rgba(240, 248, 255, 0);
+    width: 200px;
+    height: 2px;
+    border: 5px white;
+    color: aliceblue;
+    text-shadow: 2px 2px ;
+
+} */
+.getparagraph{
+   position:relative;
+
+}
+.getparagraph::after{
+    content: "   ";
+    background-color: rgb(255, 255, 255);
+    width: 60% !important;
+    height: 10%;
+    color: aliceblue;
+    text-shadow: 2px 2px ;
+    position: absolute;
+    left:65%;
+    top:50%;
+    translate:0 -50%;
+    border-radius:5px;
+}
+.getparagraph::before{
+    content: " ";
+    background-color: rgb(255, 255, 255);
+    width: 60% !important;
+    height: 10%;
+    border: 5px white;
+    color: aliceblue;
+    text-shadow: 2px 2px ;
+    position: absolute;
+    left:-25%;
+    top:50%;
+    translate:0 -50%;
+    border-radius:5px;
+   
+}
+
+.Vbotton{
+    
+    /* width: 300px !important ;
+    
+   
+   
+   
+   
+   
+     */ 
+     padding: 5px;
+      text-align: center;
+    border-radius: 15px;
+   font-size: larger; 
+   font-weight: bold;
+   height: 50px;
+   display:grid;
+   place-items: center;
+   color: #fff ;
+    width:100%;
+   background-color:#982727 !important;
+}
+.bgBorder{
+    border:20px gray;
+    background-color: gray;
+    width:100%;
+    height:100%;
+    margin-top: 0%;
+}

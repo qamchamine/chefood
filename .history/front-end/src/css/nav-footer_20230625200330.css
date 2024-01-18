@@ -1,0 +1,258 @@
+.homeBG {
+    height: 190vh;
+    position: absolute;
+    right: -32.5%;
+    top: -40%;
+    z-index: -1;
+
+}
+
+body {
+    background-color: #F7F2E7 !important;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.nb {
+/*     position: fixed; */
+/*     top: 1em; */
+    background-color: #982727 !important;
+    box-shadow: 0 0px 20px #1f020241;
+    border: 1px solid #ffffff22;
+}
+
+.navbar {
+    background-color: #982727 !important;
+}
+
+.changeColor {
+    background-color: blue !important;
+}
+
+.signUP {
+    background: white !important;
+    color: #982727 !important;
+    font-weight: bold !important;
+    outline: 5px solid #982727ab;
+    outline-offset: -2px;
+    transition: 500ms ease;
+
+
+}
+
+.homeContent {
+    height: 100vh;
+    z-index: 0;
+}
+
+.homeContent h1 {
+    color: #F7F2E7;
+    text-align: start;
+
+}
+
+.homeContent h1 span {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px 20px 8px;
+    transition: 1s ease;
+}
+
+.homeContent h1 span::before {
+    content: '';
+    position: absolute;
+    background: #982727;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transform: skew(-10deg);
+}
+
+.homeContent h1 span:last-child::before {
+    transform: skew(10deg);
+}
+
+.homeContent p {
+    width: 72%;
+    color: #982727;
+    text-align: left;
+}
+
+.homeContent .homeMainButtons {
+    width: 72%;
+}
+
+.cardBtn {
+    transition: 1s ease;
+}
+
+.cardBtn:hover {
+    filter: brightness(130%);
+
+}
+
+.cardBtn i {
+    left: 63%;
+    transition: 300ms ease;
+}
+
+.cardBtn:hover i {
+    left: 75%;
+}
+
+.btnMain:hover {
+    filter: brightness(130%);
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.signUP:hover {
+
+    background: #982727 !important;
+    color: white !important;
+    font-weight: bold !important;
+    outline: 5px solid #ffffff55;
+    outline-offset: -4px;
+}
+
+.cardsGroup:not(:first-child) {
+    translate: 50% 0;
+}
+
+.arrow-1-1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: 12px solid #982929;
+    outline-offset: -1px;
+    background-color: #982929;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 10;
+
+    width: 4em !important;
+
+} */
+.footer-icon{
+    width: 2em;
+    transition: 700ms ease;
+    filter: saturate(0);
+    mix-blend-mode: lighten;
+}
+.footer-icon:hover{
+    mix-blend-mode: normal;
+    transform: rotate(360deg);
+    filter: saturate(100%);
+}
+
+
+.nav-item{
+    cursor: pointer;
+} 
+.dropdown-menu{
+   width: 15em;
+   translate: -28% 2em;
+   padding: 0 !important;
+   box-shadow: 5px 5px 0px #dd717118; 
+   border-radius:00% !important;
+}
+
+.dropdown-menu li a{
+    background:white  !important;
+    color:#982727 !important;
+    text-align: center;
+    padding-block: .7em;
+    border-bottom: 1px solid #9827275a;
+}
+
+.dropdown-menu li a:hover{
+    background:#982727!important ;
+    color:white !important;
+}
+.arrowNav{
+    background:transparent; 
+    position:absolute;
+    left: 50%;
+    translate: -50% -100%;
+    border:1em solid transparent;
+    border-bottom:1em solid #ffffff;
+    filter: drop-shadow(0em -.05em 0px #9827277c);
+} 
+@media (max-width:768px){
+    .signUP.rounded-pill{
+        width: 100% !important;
+        margin-top: 2em;
+        border-radius: 5px !important;
+    }
+    .nav{
+        text-align: center;
+    }
+    .nb .dropdown-toggle{
+        background:#8d2424;
+    }
+    .nb .dropdown-menu{
+        background:#7e2020;
+        width: 50%;
+        translate: 50% 0;
+    }
+
+    .nb .dropdown-menu li a:hover{
+        background:#f1e6e6 !important;
+        color:#982727 !important;
+    }
+    .arrowNav{
+        display: none;
+    }
+}
+
+
+.profileArrow{
+    left: 70%;
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+
+    border-color: transparent !important;
+}
+.profileDropDown{
+    position: relative;
+    left: unset !important;
+    right: -25% !important; 
+    width: fit-content !important;
+    box-shadow: 3px 5px 3px  #00000018;
+}
+.profile-two-letters{ 
+width: 2.3em;
+border-radius:50%;
+height: 2.3em;
+border:1px solid #ffffff56;
+position: relative; 
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: .9em;
+cursor:pointer;
+user-select: none;
+color:white;
+
+}

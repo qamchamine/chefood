@@ -1,0 +1,178 @@
+.homeBG {
+    height: fit-content;
+    position: relative;
+    right: -10%;
+    top: 34%;
+    z-index: -1;
+    width: 100em !important;
+    
+
+}
+@font-face {
+    font-family: 'poppin';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    font-family:'poppin', sans-serif !important;
+    background-color: #F7F2E7 !important;
+    max-width: 100vw;
+    font-weight: normal !important;
+    overflow-x: hidden;
+    font-size: 14px !important;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.nb {
+/*     position: fixed; */
+/*     top: 1em; */
+    background-color: #982727 !important;
+    box-shadow: 0 0px 20px #1f020241;
+    border: 1px solid #ffffff22;
+}
+
+.navbar {
+    background-color: #982727 !important;
+}
+
+.changeColor {
+    background-color: blue !important;
+}
+
+.signUP {
+    background: white !important;
+    color: #982727 !important;
+    font-weight: bold !important;
+    outline: 5px solid #982727ab;
+    outline-offset: -2px;
+    transition: 500ms ease;
+
+
+}
+
+.homeContent {
+    height: 90vh;
+    z-index: 0;
+    margin-top: -1.5em !important;
+}
+
+.homeContent h1 {
+    color: #F7F2E7;
+    text-align: start;
+width: 40vw !important;
+}
+
+.homeContent h1 span {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px 20px 8px;
+    transition: 1s ease;
+}
+
+.homeContent h1 span::before {
+    content: '';
+    position: absolute;
+    background: #982727;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transform: skew(-10deg);
+}
+
+.homeContent h1 span:last-child::before {
+    transform: skew(10deg);
+}
+
+.homeContent p {
+    width: 72%;
+    color: #982727;
+    text-align: left;
+}
+
+.homeContent .homeMainButtons {
+    width: 72%;
+}
+
+.cardBtn {
+    transition: 1s ease;
+}
+
+.cardBtn:hover {
+    filter: brightness(130%);
+
+}
+
+.cardBtn i {
+    left: 63%;
+    transition: 300ms ease;
+}
+
+.cardBtn:hover i {
+    left: 75%;
+}
+
+.btnMain:hover {
+    filter: brightness(130%);
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.signUP:hover {
+
+    background: #982727 !important;
+    color: white !important;
+    font-weight: bold !important;
+    outline: 5px solid #ffffff55;
+    outline-offset: -4px;
+}
+
+.cardsGroup:not(:first-child) {
+    translate: 50% 0;
+}
+
+.arrow-1-1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.home .carousel-control-prev-icon,
+.home .carousel-control-next-icon {
+
+    width: 1.3em;
+    height: 1.3em;
+    color:black !important;
+
+    outline: 12px solid #982929;
+    outline-offset: -1px;
+    background-color: #982929;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+.home .carousel-control-prev,
+.home .carousel-control-next {
+    z-index: 10;
+    width: 4em !important;
+/*     background: red; */
+
+}
+
+/* .py-4 {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+} */
+
+.nb{
+    zoom:87%;
+}

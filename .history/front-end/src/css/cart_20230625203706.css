@@ -1,0 +1,26 @@
+.ajouterPanierTable td{
+    font-size: .9em;
+    width: fit-content !important;
+    text-align: center;
+}
+.ajouterPanierTable th{ 
+    width: fit-content !important;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.088) !important;
+}
+.ajouterPanierTable .cart-footer{ 
+    background: #982727 !important;
+    vertical-align: middle !important;
+}
+
+.ajouterPanierTable { 
+width: 70% !important;
+position: relative;
+left: 50%;
+translate: -50% 0;
+b
+border: .2em solid #982727aa !important;
+}
+.cart-page .card {
+    box-shadow:none;
+}

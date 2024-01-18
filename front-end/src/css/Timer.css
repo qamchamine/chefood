@@ -1,0 +1,63 @@
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,900,700italic,700,600italic,600,400italic);
+
+/* .timer {
+  font-family: 'Titillium Web', cursive;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background: #222;
+  font-weight: 100;
+} */
+
+.timer {
+  display: inline-flex;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Times New Roman', cursive;
+  
+  
+}
+.timerD{
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 10px;
+    border: 70px rgb(131, 55, 55);
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.4), 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Stime {
+  display: block;
+  font-size: 20px;
+  color: rgb(206, 178, 19);
+  
+}
+
+#days {
+  font-size: 80px;
+  color: rgb(92, 25, 5);
+  background-color:rgb(230, 230, 234);
+ 
+  margin: 15px;
+}
+#hours {
+  font-size: 80px;
+  color: rgb(92, 25, 5);
+  background-color:rgb(230, 230, 234);
+  margin: 15px;
+}
+#minutes {
+  font-size: 80px;
+  
+  color: rgb(92, 25, 5);
+  background-color:rgb(230, 230, 234);
+  margin: 15px;
+}
+#seconds {
+  font-size: 80px;
+  color: rgb(92, 25, 5);
+  background-color:rgb(230, 230, 234);
+  margin: 15px;
+}

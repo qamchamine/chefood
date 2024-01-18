@@ -1,0 +1,24 @@
+.gallery-img{
+    height: 100vh !important;
+}
+.gallery .carousel-control-prev-icon,
+.gallery .carousel-control-next-icon {
+
+
+    background-color: #00000000;
+border:none;
+outline: 20px solid #00000000;
+box-shadow:none;
+aspect-ratio: 1;
+}
+.gallery .carousel-control-prev,
+.gallery .carousel-control-next {
+    z-index: 10;
+    width: 4em !important;
+}
+.gallery .carousel-control-prev {
+left: 2em;
+}
+.gallery .carousel-control-next {
+right: 2em;
+}

@@ -1,0 +1,172 @@
+.howcan-color
+{
+  color : #982727;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top:40px;
+}
+
+.input-group {
+    width: 40rem;
+    margin: auto;
+}
+  
+.form-control {
+    border: 2px solid #982727;
+    border-radius: 0px;
+    padding-left:30px;
+    outline:none;
+}
+.form-control:focus {
+    color:#4d4d4d;
+    border-color: #982725;
+    outline: none;
+    box-shadow: 0 0 0;
+}
+.btn-howcan-icon{
+    border: 2px solid #982727;
+    border-radius: 0px;
+    background-color: #982727;
+    color: #fff;
+    font-size: 1.1em;
+}
+.btn-howcan-icon:hover{
+    border-color: #982727;
+}
+.form-control::placeholder {
+    color: #982727;
+  }
+
+.fa-search {
+    color: #777;
+}
+.acount-help-all-card{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.acount-help-card{
+    margin-top:30px !important;
+    height:100px;
+    width:65%;
+}
+.acount-help-card{
+    padding:25px;
+    text-align: center;
+    color: #F7F2E7;
+    background-color: #982727;
+    border-radius: 9px;
+}
+.acount-help-all-card{
+column-gap:2em ;
+}
+.acount-help-card {
+    border: 3px solid #98272700 !important;
+    box-shadow: 0 0 0;
+    background-color: #982727 !important;
+}
+.acount-help-card:hover{
+    color: #982727;
+    background-color: #F7F2E7 !important;
+    border:3px solid #982727 !important ;
+    border-radius: 9px;
+}
+.helpers-methode
+{
+    margin-top: 85px !important;
+    margin-bottom:35px;
+}
+.acount-help-title{
+    margin-left: 10px;
+    color: #982727;
+}
+.helpers-card{
+    margin: auto;
+    width: 300px;
+}
+.icon-and-help{
+    display: flex;
+}
+.acount-help{
+    margin-top:25px;
+    margin-left:7px;
+}
+.icon-triangle img{ 
+    margin-top:30px !important;
+}
+.icon-triangle img{
+    width: 14px;
+    height: 16px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1400px) { /* Extra large devices (large desktops, 1200px and up) */
+    .acount-help-card{
+        width: 300px;
+    }
+  }
+  @media (max-width: 1000px) { /* Large devices (desktops, 992px and up) */
+    .acount-help-card{
+        width: 250px;
+    }
+    .acount-help-card h5{
+        font-size:1.1em;
+    }
+    .acount-help-card p{
+        font-size:0.9em;
+    }
+
+  }
+  @media (max-width: 992px) { /* Medium devices (tablets, 768px and up) */
+    .acount-help-card{
+        width: 200px;
+    }
+    .acount-help-card h5{
+        font-size:1em;
+    }
+    .acount-help-card p{
+        font-size:0.8em;
+    }
+    .helpers-card {
+        width: 250px;
+    }
+  }
+  @media (max-width: 769px) { /* Medium devices (tablets, 768px and up) */
+    .acount-help-all-card {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-group {
+        width: 33rem;
+    }
+  }
+  @media (max-width: 716px) { /* Small devices (landscape phones, 576px and up) */
+
+  }
+  @media only screen and (max-width: 576px){ /* Small devices (landscape phones, 576px and up) */
+
+  }
+
+  @media only screen and (max-width: 528px){ /* Small devices (landscape phones, 576px and up) */
+
+  }
+
+  @media only screen and (max-width: 365px){ /* Small devices (landscape phones, 576px and up) */
+
+  }

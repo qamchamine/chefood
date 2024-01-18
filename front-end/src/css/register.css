@@ -1,0 +1,182 @@
+
+.FormRegister {
+    background-image: url('../images/auth-bg.png');
+    background-repeat: no-repeat;
+    background-size: 80% 90% !important;
+    background-position: 75% 40%;
+    height: calc(100vh - 70px);
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width: 767px) {
+    .FormRegister {
+        background-image: none; 
+    }
+    .FormRegister > form{
+        margin-left: 0 !important;
+         width: 70%;
+         position: relative;
+         left: 50% ;
+         translate: -50% 0; 
+    }
+}
+
+.FormRegister .name {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.FormRegister a {
+    display: block !important;
+    padding-inline: 10px;
+}
+
+.FormRegister input {
+    width: 100%;
+    border: 2px solid #9827277f;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #982727 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #8727275b !important;
+}
+
+.groupButton>div {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 1.5em;
+}
+
+.nameContainer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 1.5em;
+}
+
+
+
+
+
+
+.groupButton .buttonAuth {
+    background-color: #982727;
+    border-color: #f37676;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.groupButton .buttonAuth2 ,.bottonsingin
+.buttonAuth2 {
+    width: 100%;
+    background-color: #fff;
+    color: #982727;
+    border:2px solid #cd5757;
+    border-radius: 20px;
+}
+
+.groupButton .buttonAuth:hover  {
+    background-color: #F7F2E7;
+    color: #982727;
+}
+
+.groupButton .buttonAuth2:hover ,.bottonsingin
+.buttonAuth2:hover{
+    background-color: #982727;
+    color: #F7F2E7;
+}
+
+.FormRegister p {
+    color: grey;
+    font-size: 1.2em;
+
+
+
+
+}
+
+.bottonsingin {
+    width: 100% !important; 
+    border-color: #f37676;
+    border-radius: 20px;
+}
+
+.bottonsingin .singinbG {
+
+    width: 100% !important;
+    background-color: #F7F2E7;
+    color: #982727;
+    border:2px solid #cd5757;
+    border-radius: 20px;
+    transition: 300ms ease;
+
+
+}
+
+.bottonsingin .singinB {
+    width: 100% !important;
+    background-color: #982727 !important;
+    border-color: #f37676;
+    border-radius: 20px;
+
+}
+
+.bottonsingin .singinB:hover {
+
+    color: #f7f7f7;
+    border: 1px solid #982727;
+    filter: brightness(120%);
+}
+
+.bottonsingin .singinB:active {
+    background-color: #e6b7b1 !important;
+    color: #982727 !important;
+    border: 1px solid #982727 !important;
+}
+
+.bottonsingin .singinbG:hover {
+    background-color: #e5e5e5 !important;
+    border:2px solid #cd5757;
+    color: #982727;
+    outline: none !important;
+    box-shadow: none !important; 
+}
+
+.bottonsingin .singinbG:active {
+    background-color: #992525 !important;
+    border: 1px solid #e9909000 !important;
+    color: #fff !important;
+    outline: 2px solid #982727 !important;
+    box-shadow: none !important;
+    outline-offset: 3px; 
+}
+
+.FormRegister .liensingup {
+    color: gray;
+    font-size: 1.2em;
+} 
+
+.buttonAuth2:active  {
+    background-color: #992525 !important;
+    border: 1px solid #e9909000 !important;
+    color: #fff !important;
+    outline: 2px solid #982727 !important;
+    box-shadow: none !important;
+    outline-offset: 3px;
+}
+
+.buttonAuth:active {
+    background-color: #e6b7b1 !important;
+    color: #982727 !important;
+    border: 1px solid #982727 !important;
+}
+
+.buttonAuth:hover {
+    color: #f7f7f7 !important;
+    border: 1px solid #982727 !important;
+    filter: brightness(120%) !important;
+    background-color: #992525 !important;
+}

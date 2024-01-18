@@ -1,0 +1,9 @@
+.ajouterPanierTable td{
+    font-size: .9em;
+    width: fit-content !important;
+     text-align: center;
+}
+.ajouterPanierTable th{ 
+    text-align: center;
+    width: 10% !important;
+}

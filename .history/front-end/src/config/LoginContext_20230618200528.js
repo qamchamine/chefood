@@ -1,0 +1,72 @@
+import React, { createContext, useState, useEffect } from 'react';
+
+const LoginContext = createContext();
+
+const LoginProvider = ({ children }) => {
+  const [loading, setLoading] = useState(true);
+  const [prod, setProd] = useState([]);
+  const [loggedFrom, setProd] = useState([]);
+
+
+
+
+  const [isLoggedIn, setLoggedIn] = useState(false);
+  const [userData, setUserData] = useState({
+    id: null,
+    firstname: '',
+    lastname: '',
+    email: '',
+    address: '',
+    phone: null,
+    admin: 0
+  });
+
+
+
+
+  const [formData, setFormData] = useState({
+    product_name: '',
+    product_quantity: 1,
+    full_name: '',
+    location: '',
+    payment_method: 'cash on delivery',
+    delivery_offer: 'normal'
+  });
+
+
+
+  useEffect(() => {
+    const storedLoggedIn = localStorage.getItem('isLoggedIn');
+    if (storedLoggedIn !== null) {
+      setLoggedIn(storedLoggedIn === 'true');
+    }
+    const storedUserData = localStorage.getItem('userData');
+    if (storedUserData) {
+      setUserData(JSON.parse(storedUserData));
+    }
+  }, []);
+  useEffect(() => {
+    localStorage.setItem('userData', JSON.stringify(userData));
+    localStorage.setItem('isLoggedIn', isLoggedIn);
+  }, [userData, isLoggedIn]);
+
+
+  const login = () => {
+    setLoggedIn(true);
+  };
+
+  const logout = () => {
+    setLoggedIn(false);
+    setUserData({});
+    localStorage.removeItem('userData');
+  };
+  return (
+    <LoginContext.Provider value={{ isLoggedIn, login, logout, userData, setUserData, prod, setProd, loading, setLoading, formData, setFormData }}>
+      {children}
+    </LoginContext.Provider>
+  );
+};
+export { LoginContext, LoginProvider };
+
+
+

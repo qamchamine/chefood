@@ -1,0 +1,20 @@
+.ajouterPanierTable td{
+    font-size: .9em;
+    width: fit-content !important;
+    text-align: center;
+}
+.ajouterPanierTable th{ 
+    width: fit-content !important;
+    text-align: center;
+    background: black !;
+}
+.ajouterPanierTable { 
+width: 70% !important;
+position: relative;
+left: 50%;
+translate: -50% 0;
+border: .2em solid #982727aa !important;
+}
+.cart-page .card {
+    box-shadow:none;
+}

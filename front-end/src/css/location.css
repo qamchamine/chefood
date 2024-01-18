@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.location-color
+{
+  color : #982727;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+.where-restorant
+{
+    width: 459px;
+    margin:auto;
+}
+.restorant-location-title{
+    font-family: 'Century Gothic';
+    font-size:32px;
+    font-weight:400;
+}
+.restorant-location-line{
+    background:#B12222;
+    height: 3px;
+    width: 450px;
+    display: inline-block;
+    margin: 15px auto;
+}
+.restorant-location-p
+{
+    color:#000000 75%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.main-location{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.restorant-location-btn{
+    background-color: #B12222;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+}
+.restorant-location-btn:hover{
+    background-color: #fff;
+    border: 2px solid #B12222;
+    border-radius: 15px;
+    color: #B12222;
+}
+.location-icon{
+    margin-right: 15px;
+}
+
+
+  @media (max-width: 1123px) { /* Extra large devices (large desktops, 1200px and up) */
+    .earth-image img{
+        width: 450px;
+    }
+  }
+  @media (max-width: 992px) { /* Medium devices (tablets, 768px and up) */
+    .earth-image img{
+        width: 400px;
+    }
+    .where-restorant {
+        width: 400px;
+        margin: auto;
+    }
+    .restorant-location-line{
+        width: 350px;
+        display: inline-block;
+    }
+  }
+  @media (max-width: 868px) { /* Medium devices (tablets, 768px and up) */
+    
+    .earth-image img{
+        width: 380px;
+    }
+    .where-restorant {
+        width: 380px;
+        margin: auto;
+    }
+    .restorant-location-line{
+        width: 320px;
+        display: inline-block;
+    }
+    .restorant-location-p{
+        font-size: 13px;
+    }
+    .restorant-location-title{
+        font-size:28px;
+    }
+    
+  }
+  @media (max-width: 783px) { /* Small devices (landscape phones, 576px and up) */
+    .earth-image img{
+        margin-top: 30px;
+        width: 380px;
+    }
+    .where-restorant {
+        width: 380px;
+        margin: auto;
+    }
+    .restorant-location-line{
+        width: 320px;
+        display: inline-block;
+    }
+    .restorant-location-p{
+        font-size: 15px;
+    }
+    .restorant-location-title{
+        font-size:32px;
+    }
+    .main-location{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        text-align:center;
+    }
+  }
+  @media(max-width: 401px){ /* Small devices (landscape phones, 576px and up) */
+    .earth-image img{
+        width: 330px;
+        margin-top: 30px;
+    }
+    .where-restorant {
+        width: 330px;
+        margin: auto;
+    }
+    .restorant-location-line{
+        width: 320px;
+        display: inline-block;
+    }
+    .restorant-location-p{
+        font-size: 13px;
+    }
+    .restorant-location-title{
+        font-size:28px;
+    }
+    .main-location{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        text-align:center;
+    }
+  }
+
